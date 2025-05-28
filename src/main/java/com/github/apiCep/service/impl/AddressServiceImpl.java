@@ -26,6 +26,7 @@ public class AddressServiceImpl implements AddressService {
 
     @Override
     public AddressResponseDto getAddressByCep(String cep) {
+
         try {
             AddressResponseDto dto = clientCep.getAddressByCep(cep);
             LogConsultaCep log = CepLogMapper.fromCepResponse(cep, dto);
