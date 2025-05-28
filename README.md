@@ -16,7 +16,7 @@ API REST em Spring Boot 3.5.0 para consultas de endeço por CEP em uma APi Exter
 * SOLID
 * Padrões usados: DTOs, Mappers, Global Exception Handling
 
-## Diagrama UML
+## Diagrama
 
  
 ![cep](https://github.com/user-attachments/assets/07f4c0f8-7c3c-41da-aedf-0e657ca9ff3d)
