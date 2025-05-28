@@ -22,11 +22,4 @@ API REST em Spring Boot 3.5.0 para consultas de endeço por CEP em uma APi Exter
 
   ## Diagrama UML
 
-  ```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
   
