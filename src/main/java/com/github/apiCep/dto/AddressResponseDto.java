@@ -1,4 +1,4 @@
-package com.github.apiCep.model;
+package com.github.apiCep.dto;
 
 import lombok.*;
 
