@@ -1,7 +1,7 @@
 package com.github.apiCep.mapper;
 
 import com.github.apiCep.entity.LogConsultaCep;
-import com.github.apiCep.model.AddressResponseDto;
+import com.github.apiCep.dto.AddressResponseDto;
 
 import java.time.LocalDateTime;
 
@@ -12,5 +12,13 @@ public class CepLogMapper {
         log.setReturnApi(response.toString());
         log.setDataConsulta(LocalDateTime.now());
         return log;
+    }
+
+    public static CepLog toModel(LogConsultaCep logConsultaCep) {
+        return new CepLog(
+                logConsultaCep.getCep(),
+                logConsultaCep.getDataConsulta(),
+                logConsultaCep.getReturnApi()
+        );
     }
 }
