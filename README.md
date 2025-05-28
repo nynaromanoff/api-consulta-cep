@@ -20,6 +20,6 @@ API REST em Spring Boot 3.5.0 para consultas de endeço por CEP em uma APi Exter
 
 * Banco de Dados PostgreSQL 15
 
-  ## Diagrama UML
+## Diagrama UML
 
-  
+ <img src="https://drive.google.com/file/d/1R_Oyjw5DKy3sOmz7Q6m7_0Ixnw3glzSg/view?usp=drive_link" alt="CEP Diagrama" />
