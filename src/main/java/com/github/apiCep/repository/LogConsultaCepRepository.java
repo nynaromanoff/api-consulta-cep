@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface AddressRepository extends JpaRepository<LogConsultaCep, Long> {
+public interface LogConsultaCepRepository extends JpaRepository<LogConsultaCep, Long> {
 }

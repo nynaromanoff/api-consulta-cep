@@ -6,7 +6,7 @@ import com.github.apiCep.exceptions.AddressBadRequestException;
 import com.github.apiCep.exceptions.AddressNotFoundException;
 import com.github.apiCep.mapper.CepLogMapper;
 import com.github.apiCep.dto.AddressResponseDto;
-import com.github.apiCep.repository.AddressRepository;
+import com.github.apiCep.repository.LogConsultaCepRepository;
 import com.github.apiCep.service.AddressService;
 import feign.FeignException;
 import org.springframework.stereotype.Service;
@@ -17,9 +17,9 @@ import org.springframework.util.ObjectUtils;
 public class AddressServiceImpl implements AddressService {
     private final CepClient clientCep;
 
-    private final AddressRepository repository;
+    private final LogConsultaCepRepository repository;
 
-    public AddressServiceImpl(CepClient clientCep, AddressRepository repository) {
+    public AddressServiceImpl(CepClient clientCep, LogConsultaCepRepository repository) {
         this.clientCep = clientCep;
         this.repository = repository;
     }

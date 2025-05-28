@@ -1,9 +1,9 @@
-package com.github.apiCep.unit.controller;
+package com.github.apiCep.integration.controller;
 
 
 import com.github.apiCep.dto.AddressResponseDto;
 import com.github.apiCep.entity.LogConsultaCep;
-import com.github.apiCep.repository.AddressRepository;
+import com.github.apiCep.repository.LogConsultaCepRepository;
 import com.github.apiCep.service.AddressService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
@@ -37,7 +36,7 @@ public class AddressControllerTest {
     private AddressService service;
 
     @MockitoBean
-    private AddressRepository repository;
+    private LogConsultaCepRepository repository;
 
 
     @Test
