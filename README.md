@@ -22,4 +22,5 @@ API REST em Spring Boot 3.5.0 para consultas de endeço por CEP em uma APi Exter
 
 ## Diagrama UML
 
- <img src="https://drive.google.com/file/d/1R_Oyjw5DKy3sOmz7Q6m7_0Ixnw3glzSg/view?usp=drive_link" alt="CEP Diagrama" />
+ 
+![cep](https://github.com/user-attachments/assets/07f4c0f8-7c3c-41da-aedf-0e657ca9ff3d)
