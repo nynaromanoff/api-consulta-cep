@@ -8,8 +8,9 @@ API REST em Spring Boot 3.5.0 para consultas de endeço por CEP em uma APi Exter
 -   Spring Boot 3.5.0
 -   Spring Web
 -   Spring Data JPA
--   Feign Client (integração externa)
+-   Feign Client
 -   PostgreSQL
+-   Mockito
 
 ## Arquitetura e Boas Práticas
 
